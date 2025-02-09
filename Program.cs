@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -14,7 +14,6 @@ namespace HelloWorld
 
         static int taxAmount = 0;
         static int csAmount = 0;
-        static int fontSize;
         static bool inPrison = false;
         static bool secretOneFound = false;
         static bool secretTwoFound = false;
@@ -60,10 +59,6 @@ namespace HelloWorld
         static bool points10000 = false;
         static bool points100000 = false;
         static bool points1000000 = false;
-
-        //checking stuff bruh
-        static bool donotcheck = false;
-        static bool donotcheck2 = false;
 
         static void DisplayAchievements()
         {
@@ -918,7 +913,6 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            Random random = new Random();
             Game();
         }
     }
